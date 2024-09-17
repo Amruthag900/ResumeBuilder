@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+/* Basic Reset */
+body, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Global Styling */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button, form textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 24px); /* Full width minus padding */
+}
+
+form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error and Success Messages */
+.message {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Miscellaneous */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Page Specific Styling */
+
+/* For View Resume Page */
+.view-resume-container {
+    text-align: center;
+}
+
+.view-resume-container a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.view-resume-container a:hover {
+    color: #0056b3;
+}
+
+
